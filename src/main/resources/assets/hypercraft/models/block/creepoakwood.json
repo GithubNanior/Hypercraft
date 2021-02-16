@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hypercraft:blocks/creepoak_logtop_texture",
+    "up": "hypercraft:blocks/creepoak_logtop_texture",
+    "north": "hypercraft:blocks/creepoak_log_texture",
+    "east": "hypercraft:blocks/creepoak_log_texture",
+    "south": "hypercraft:blocks/creepoak_log_texture",
+    "west": "hypercraft:blocks/creepoak_log_texture",
+    "particle": "hypercraft:blocks/creepoak_logtop_texture"
+  }
+}

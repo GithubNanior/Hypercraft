@@ -1,0 +1,16 @@
+{
+  "item.minecraft.lingering_potion.effect.hyperthermia": "Lingering Hyperthermia",
+  "effect.hyperthermia": "Hyperthermia",
+  "block.hypercraft.creepoakwood": "Creepoakwood",
+  "effect.hypothermia": "Hypothermia",
+  "key.mcreator.creative_stats_gui_key": "Creative Stats GUI Key",
+  "item.minecraft.potion.effect.hyperthermia": "Hyperthermia",
+  "item.minecraft.splash_potion.effect.hyperthermia": "Splash Hyperthermia",
+  "item.minecraft.potion.effect.hypothermia": "Hypothermia",
+  "item.minecraft.splash_potion.effect.hypothermia": "Splash Hypothermia",
+  "block.hypercraft.creep_dirt": "Creepdirt",
+  "block.hypercraft.creepstone": "Creepstone",
+  "item.minecraft.lingering_potion.effect.hypothermia": "Lingering Hypothermia",
+  "item.minecraft.tipped_arrow.effect.hypothermia": "Arrow of Hypothermia",
+  "item.minecraft.tipped_arrow.effect.hyperthermia": "Arrow of Hyperthermia"
+}

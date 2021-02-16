@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "hypercraft:block/creepoakwood"
+    },
+    "facing=north": {
+      "model": "hypercraft:block/creepoakwood"
+    },
+    "facing=east": {
+      "model": "hypercraft:block/creepoakwood",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "hypercraft:block/creepoakwood",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "hypercraft:block/creepoakwood",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "hypercraft:block/creepoakwood",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

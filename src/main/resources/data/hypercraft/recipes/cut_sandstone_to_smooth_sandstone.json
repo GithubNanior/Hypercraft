@@ -1,0 +1,16 @@
+{
+  "group": "hypercraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cut_sandstone_slab"
+    },
+    {
+      "item": "minecraft:cut_sandstone_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:smooth_sandstone",
+    "count": 1
+  }
+}

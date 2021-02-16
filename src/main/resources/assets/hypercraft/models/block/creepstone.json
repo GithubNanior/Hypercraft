@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "hypercraft:blocks/block_creepstone",
+    "particle": "hypercraft:blocks/block_creepstone"
+  }
+}

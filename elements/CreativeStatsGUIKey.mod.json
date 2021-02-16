@@ -1,0 +1,12 @@
+{
+  "_fv": 13,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "F13",
+    "keyBindingName": "Creative Stats GUI Key",
+    "keyBindingCategoryKey": "ui",
+    "onKeyPressed": {
+      "name": "ShowStatsDisplay"
+    }
+  }
+}

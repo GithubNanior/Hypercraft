@@ -1,0 +1,634 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Accessories",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "accessories"
+    },
+    {
+      "name": "Acc",
+      "type": "tag",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acc"
+    },
+    {
+      "name": "OnDestroyBlock",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "on_destroy_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnPlaceBlock",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "on_place_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StatsDisplay",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stats_display"
+    },
+    {
+      "name": "CreativeStatsGUIKey",
+      "type": "keybind",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creative_stats_gui_key"
+    },
+    {
+      "name": "ShowStatsDisplay",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "show_stats_display",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OakSlabsToOakPlank",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_slabs_to_oak_plank"
+    },
+    {
+      "name": "SpruceSlabsToSpurcePlank",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spruce_slabs_to_spurce_plank"
+    },
+    {
+      "name": "BirchSlabsToBirchPlank",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "birch_slabs_to_birch_plank"
+    },
+    {
+      "name": "JungleSlabsToJunglePlank",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jungle_slabs_to_jungle_plank"
+    },
+    {
+      "name": "AcaciaSlabsToAcaciaPlank",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acacia_slabs_to_acacia_plank"
+    },
+    {
+      "name": "DarkOakSlabsToDarkOakPlank",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_oak_slabs_to_dark_oak_plank"
+    },
+    {
+      "name": "StoneSlabsToStone",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_slabs_to_stone"
+    },
+    {
+      "name": "GraniteSlabsToGranite",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "granite_slabs_to_granite"
+    },
+    {
+      "name": "PolishedGraniteSlabsToPolishedGranite",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_granite_slabs_to_polished_granite"
+    },
+    {
+      "name": "DioriteSlabsToDiorite",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diorite_slabs_to_diorite"
+    },
+    {
+      "name": "PolishedDioriteSlabsToPolishedDiorite",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_diorite_slabs_to_polished_diorite"
+    },
+    {
+      "name": "AndesiteSlabsToAndesite",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "andesite_slabs_to_andesite"
+    },
+    {
+      "name": "PolishedAndesiteSlabsToPolishedAndesite",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_andesite_slabs_to_polished_andesite"
+    },
+    {
+      "name": "MossyCobblestoneSlabToMossyCobblestone",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_cobblestone_slab_to_mossy_cobblestone"
+    },
+    {
+      "name": "SmoothQuartzSlabsToSmoothQuartz",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_quartz_slabs_to_smooth_quartz"
+    },
+    {
+      "name": "SmoothSandstoneSlabsToSmoothSandstone",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_sandstone_slabs_to_smooth_sandstone"
+    },
+    {
+      "name": "CutSandstoneToSmoothSandstone",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cut_sandstone_to_smooth_sandstone"
+    },
+    {
+      "name": "SmoothRedSandstoneSlabsToSmoothRedSandstone",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_red_sandstone_slabs_to_smooth_red_sandstone"
+    },
+    {
+      "name": "CutRedSandstoneSlabsToCutRedSandstone",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cut_red_sandstone_slabs_to_cut_red_sandstone"
+    },
+    {
+      "name": "RedNetherBrickSlabsToRedNetherBrick",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_nether_brick_slabs_to_red_nether_brick"
+    },
+    {
+      "name": "MossyStoneBrickSlabsToMossyStoneBrick",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_stone_brick_slabs_to_mossy_stone_brick"
+    },
+    {
+      "name": "EndStoneBrickSlabsToEndtoneBrick",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "end_stone_brick_slabs_to_endtone_brick"
+    },
+    {
+      "name": "PurpurSlabsToPurpurBlock",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purpur_slabs_to_purpur_block"
+    },
+    {
+      "name": "SmoothStoneSlabsToSmoothStone",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_stone_slabs_to_smooth_stone"
+    },
+    {
+      "name": "SandstoneSlabsToSandstone",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sandstone_slabs_to_sandstone"
+    },
+    {
+      "name": "CobblestoneSlabsToCobblestone",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobblestone_slabs_to_cobblestone"
+    },
+    {
+      "name": "BricksSlabsToBricks",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bricks_slabs_to_bricks"
+    },
+    {
+      "name": "StoneBrickSlabsToStoneBrick",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_brick_slabs_to_stone_brick"
+    },
+    {
+      "name": "NetherBrickSlabsToNetherBricks",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_brick_slabs_to_nether_bricks"
+    },
+    {
+      "name": "QuartzSlabsToBlockOfQuartz",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quartz_slabs_to_block_of_quartz"
+    },
+    {
+      "name": "RedSandstoneSlabsToRedSandstone",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_sandstone_slabs_to_red_sandstone"
+    },
+    {
+      "name": "PrismarineSlabsToPrismarineBlock",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "prismarine_slabs_to_prismarine_block"
+    },
+    {
+      "name": "PrismarineBrickSlabsToPrismarineBricks",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "prismarine_brick_slabs_to_prismarine_bricks"
+    },
+    {
+      "name": "DarkPrismarineSlabsToDarkPrismarine",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_prismarine_slabs_to_dark_prismarine"
+    },
+    {
+      "name": "CreepDirt",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creep_dirt"
+    },
+    {
+      "name": "CreeplandInfect",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creepland_infect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Creepstone",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creepstone"
+    },
+    {
+      "name": "Creepoakwood",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creepoakwood"
+    },
+    {
+      "name": "AdjustTemperature",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "adjust_temperature",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Hypothermia",
+      "type": "potion",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hypothermia"
+    },
+    {
+      "name": "Hyperthermia",
+      "type": "potion",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyperthermia"
+    },
+    {
+      "name": "HypothermiaEffect",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hypothermia_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HyperthermiaEffect",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyperthermia_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fff",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fff",
+      "metadata": {
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "AccessorySlotCount",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "3.0"
+    },
+    {
+      "name": "NaturalPoints",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Temperature",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "70.0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.lingering_potion.effect.hyperthermia": "Lingering Hyperthermia",
+      "effect.hyperthermia": "Hyperthermia",
+      "block.hypercraft.creepoakwood": "Creepoakwood",
+      "effect.hypothermia": "Hypothermia",
+      "key.mcreator.creative_stats_gui_key": "Creative Stats GUI Key",
+      "item.minecraft.potion.effect.hyperthermia": "Hyperthermia",
+      "item.minecraft.splash_potion.effect.hyperthermia": "Splash Hyperthermia",
+      "item.minecraft.potion.effect.hypothermia": "Hypothermia",
+      "item.minecraft.splash_potion.effect.hypothermia": "Splash Hypothermia",
+      "block.hypercraft.creep_dirt": "Creepdirt",
+      "block.hypercraft.creepstone": "Creepstone",
+      "item.minecraft.lingering_potion.effect.hypothermia": "Lingering Hypothermia",
+      "item.minecraft.tipped_arrow.effect.hypothermia": "Arrow of Hypothermia",
+      "item.minecraft.tipped_arrow.effect.hyperthermia": "Arrow of Hyperthermia"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "hypercraft",
+    "modName": "Hypercraft",
+    "version": "1.0.0",
+    "author": "jakobspeybrouck, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.hypercraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

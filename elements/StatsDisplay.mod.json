@@ -1,0 +1,41 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 300,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Planterial value:",
+          "color": {
+            "value": -15906816,
+            "falpha": 0.0
+          },
+          "name": "Planterial value:",
+          "x": 69,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:NaturalPoints>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:NaturalPoints>",
+          "x": 159,
+          "y": 26
+        }
+      }
+    ]
+  }
+}
